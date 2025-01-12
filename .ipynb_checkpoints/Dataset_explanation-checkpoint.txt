@@ -1,0 +1,92 @@
+Here it is possible to find a comprehensive description of each variable in the datasets.
+
+1. GENERAL_STATS / all_seasons_joined
+
+Date: The date of the match.
+Season: The football season (e.g., 2022/23).
+HomeTeam: The name of the home team.
+AwayTeam: The name of the away team.
+FTHG: Full-time goals scored by the home team.
+FTAG: Full-time goals scored by the away team.
+FTR: Full-time result (H=Home Win, D=Draw, A=Away Win).
+HTGS: Total goals scored by the home team up to the match.
+ATGS: Total goals scored by the away team up to the match.
+HTGC: Total goals conceded by the home team up to the match.
+ATGC: Total goals conceded by the away team up to the match.
+HTP: Points accumulated by the home team up to the match.
+ATP: Points accumulated by the away team up to the match.
+B365H: Betting odds for a home win (Bet365).
+B365D: Betting odds for a draw (Bet365).
+B365A: Betting odds for an away win (Bet365).
+HM1: Outcome of the home team’s most recent match (1=win, 0=draw, -1=loss).
+HM2: Outcome of the home team’s second most recent match.
+HM3: Outcome of the home team’s third most recent match.
+HM4: Outcome of the home team’s fourth most recent match.
+HM5: Outcome of the home team’s fifth most recent match.
+AM1: Outcome of the away team’s most recent match.
+AM2: Outcome of the away team’s second most recent match.
+AM3: Outcome of the away team’s third most recent match.
+AM4: Outcome of the away team’s fourth most recent match.
+AM5: Outcome of the away team’s fifth most recent match.
+MW: Matchweek (round number of the season).
+gameId: Unique identifier for the match.
+HTFormPtsStr: Form of the home team as a string (e.g., WWDLD).
+ATFormPtsStr: Form of the away team as a string.
+HTFormPts: Points earned by the home team in the last 5 matches.
+ATFormPts: Points earned by the away team in the last 5 matches.
+HTGD: Goal difference for the home team up to the match.
+ATGD: Goal difference for the away team up to the match.
+DiffPts: Difference in points between the two teams.
+DiffFormPts: Difference in recent form points between the teams.
+
+2. EMA_dataset (all variables are exponential moving averages - 50)
+
+Home Team Variables
+f_DateHome: Date of the match for the home team.
+f_SeasonHome: Football season for the home team (e.g., 2022/23).
+gameId: Unique identifier for the match.
+HomeTeam: Name of the home team.
+homeGame_x: Boolean indicating if it’s a home game (1=true, 0=false).
+f_cornersAgainstHome: Corners conceded by the home team.
+f_cornersForHome: Corners won by the home team.
+f_freesAgainstHome: Free kicks conceded by the home team.
+f_freesForHome: Free kicks won by the home team.
+f_goalsAgainstHome: Goals conceded by the home team.
+f_goalsForHome: Goals scored by the home team.
+f_halfTimeGoalsAgainstHome: Half-time goals conceded by the home team.
+f_halfTimeGoalsForHome: Half-time goals scored by the home team.
+f_redsAgainstHome: Red cards received by the home team.
+f_redsForHome: Red cards given to opponents by the home team.
+f_shotsAgainstHome: Total shots faced by the home team.
+f_shotsForHome: Total shots made by the home team.
+f_shotsOnTargetAgainstHome: Shots on target faced by the home team.
+f_shotsOnTargetForHome: Shots on target made by the home team.
+f_yellowsAgainstHome: Yellow cards received by the home team.
+f_yellowsForHome: Yellow cards given to opponents by the home team.
+
+Away Team Variables
+f_DateAway: Date of the match for the away team.
+f_SeasonAway: Football season for the away team (e.g., 2022/23).
+AwayTeam: Name of the away team.
+homeGame_y: Boolean indicating if it’s an away game (1=false, 0=true).
+f_cornersAgainstAway: Corners conceded by the away team.
+f_cornersForAway: Corners won by the away team.
+f_freesAgainstAway: Free kicks conceded by the away team.
+f_freesForAway: Free kicks won by the away team.
+f_goalsAgainstAway: Goals conceded by the away team.
+f_goalsForAway: Goals scored by the away team.
+f_halfTimeGoalsAgainstAway: Half-time goals conceded by the away team.
+f_halfTimeGoalsForAway: Half-time goals scored by the away team.
+f_redsAgainstAway: Red cards received by the away team.
+f_redsForAway: Red cards given to opponents by the away team.
+f_shotsAgainstAway: Total shots faced by the away team.
+f_shotsForAway: Total shots made by the away team.
+f_shotsOnTargetAgainstAway: Shots on target faced by the away team.
+f_shotsOnTargetForAway: Shots on target made by the away team.
+f_yellowsAgainstAway: Yellow cards received by the away team.
+f_yellowsForAway: Yellow cards given to opponents by the away team.
+
+3. ML_data
+
+same variable as above
+
